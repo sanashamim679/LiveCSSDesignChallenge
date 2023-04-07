@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left_Component {
+  display: flex;
+  justify-items: center;
+  margin: 40px;
+}
+.perfume {
+  display: flex;
+  justify-items: center;
+  margin: 40px;
+  height: 350px;
+  border-radius: 4px;
+  margin-top: 36px;
+  z-index: -1;
+}
+
+.right_Component {
+  display: flex;
+  flex-direction: column;
+  height: 327px;
+  margin: 22px;
+  padding: 20px;
+}
+.title {
+  color: #7b7777;
+  letter-spacing: 3.5px;
+  height: 37px;
+}
+.head {
+  width: 215px;
+  height: 136px;
+  word-wrap: normal;
+}
+.description {
+  color: #7b7777;
+  width: 209px;
+  height: 94px;
+  word-wrap: normal;
+}
+.spanhead {
+  height: 37px;
+}
+.span {
+  color: darkgreen;
+  font-size: larger;
+  font-family: italic;
+  margin: 2px;
+  padding: 3px;
+  font-weight: bold;
+}
+.wrong {
+  font-size: xx-small;
+  color: #7b7777;
+  text-decoration: line-through;
+}
+.cart {
+  width: 153px;
+  background-color: darkgreen;
+  border-radius: 7px;
+  color: white;
+  padding: 6px;
+}
+.Cart_item {
+  height: 13px;
+  color: white;
+  margin-right: 4px;
+}
+@media screen and (max-width: 780px) {
+  .Card {
+    display: flex;
+    flex-direction: column;
+  }
+  .perfume {
+    margin:0;
+    width: 100%;
+    height: 350px;
+    border-radius: 4px;
+  }
+  .right_Component {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    margin: 22px;
+    padding: 20px;
+  }
+  .title {
+    color: #7b7777;
+    letter-spacing: 3.5px;
+    height: 37px;
+  }
+  .head{
+    width: 253px;
+    height: 168px;
+  }
+  .description {
+    color: #7b7777;
+    width: 209px;
+    height: 94px;
+    word-wrap: normal;
+    margin-top: 13px;
+  }
+  .spanhead {
+    height: 37px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+  }
+  .span {
+    color: darkgreen;
+    font-size: larger;
+    font-family: italic;
+    margin: 2px;
+    padding: 3px;
+    font-weight: bold;
+  }
+  .cart {
+    width: 180px;
+    background-color: darkgreen;
+    border-radius: 7px;
+    color: white;
+    padding: 6px;
+  }
+}
